@@ -1,0 +1,13 @@
+{
+  "name": "piaic-typescript1",
+  "version": "1.0.0",
+  "description": "Starting a new typescript project\r Create a new folder in a location that you will remember\r Open the folder in explorer\r Click in the address bar of the explorer\r Write cmd and hit enter\r cmd terminal will open\r Run the following commands in order\r tsc --init\r This will create a tsconfig.json file in that folder\r npm init -y\r This will create package.json file\r Please remember that you will never create this files manually. These files need to be created with above commands.\r code .\r This will open vscode\r At this point only two windows should be open one is vscode and other is cmd terminal which we will use to run commands and will not use the integrated terminal of vscode\r Now open the tsconfig.json in vscode and change:\r “target”: “es2016” -> “target”: “ES2022”,\r ensure that a comma is present at the end of this statement\r “module”: “commonjs”, -> “module”: “NodeNext”,\r un-comment the following line\r // “moduleResolution”: “node”,                       /* Specify how TypeScript looks up a file from a given module specifier. */\r and change “moduleResolution”: “node”, -> “moduleResolution”: “NodeNext”,\r Please make use of the auto suggestions by vscode like while changing above cod when you write “no” vscode will suggest you with relevant options so you can select and hit enter\r This will minimize the spelling mistakes we do un-intentionally.\r After making above changes now open package.json\r below this line “main”: “index.js”,\r create a new line and write\r “type”: “module”,\r For installing packages to your project you can run the following commands in cmd terminal\r npm install <ANY_PACKAGE_NAME>",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
