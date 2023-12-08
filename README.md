@@ -10,6 +10,7 @@
  in package.json
  <br/>
 "type":"module",
+<br/>
 for installing inquirer
 # npm install inquirer
 # npm i --save-dev @types/inquirer
