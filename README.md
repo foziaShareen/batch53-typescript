@@ -6,7 +6,9 @@
 <!-- un-comment the following line -->
 // “moduleResolution”: “node”,
 “module”: “NodeNext”,
+<br/>
  in package.json
+ <br/>
 "type":"module",
 for installing inquirer
 # npm install inquirer
