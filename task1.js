@@ -66,4 +66,8 @@ async function Shopping() {
   console.log('Thank you for shopping with us!');
 }
 
-Shopping();
+
+setTimeout(() => {
+  Shopping();
+  
+}, 1000);
