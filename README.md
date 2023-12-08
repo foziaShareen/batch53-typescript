@@ -6,8 +6,8 @@
 <!-- un-comment the following line -->
 // “moduleResolution”: “node”,
 “module”: “NodeNext”,
-<!-- in package.json -->
+ in package.json
 "type":"module",
-<!-- for installing inquirer -->
+for installing inquirer
 # npm install inquirer
 # npm i --save-dev @types/inquirer
